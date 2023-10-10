@@ -2,7 +2,7 @@
 using namespace std;
 const int N = 0;
 #define int long long
-#define size 10005
+#define size 100005
 int n, m, k;
 
 
