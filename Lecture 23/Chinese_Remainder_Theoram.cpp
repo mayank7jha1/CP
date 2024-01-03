@@ -70,7 +70,7 @@ int X(int* nums, int* rem, int n) {
 		//cout << modInverse(Current_PP, nums[i]) << endl;
 		ans += (Current_PP * modInverse(Current_PP, nums[i]) * rem[i]);
 	}
-	return ans;
+	return ans%Product;
 }
 
 int main() {
